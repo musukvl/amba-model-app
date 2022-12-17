@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  amba.modelwebapp:
+    image: ${DOCKER_REGISTRY-}musukvl/amba-model-app
+    build:
+      context: .
+      dockerfile: Amba.ModelWebApp/Dockerfile

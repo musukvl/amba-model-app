@@ -1,0 +1,43 @@
+root = true
+
+[*]
+charset = utf-8
+indent_style = space
+indent_size = 4
+max_line_length = 200
+end_of_line = crlf
+
+[*.sh]
+end_of_line = lf
+insert_final_newline = true
+
+# Yaml files
+[*.{yml,yaml}]
+indent_size = 2
+indent_style = space
+
+# Terraform files
+[*.tf]
+indent_size = 2
+indent_style = space
+         
+# XML project files
+[*.{csproj,vbproj,vcxproj,vcxproj.filters,proj,projitems,shproj}]
+indent_size = 2
+
+# XML config files
+[*.{props,targets,ruleset,config,nuspec,resx,vsixmanifest,vsct}]
+indent_size = 2
+
+[*.cs]
+
+#### Core EditorConfig Options ####
+
+# Indentation and spacing
+indent_size = 4
+indent_style = space
+tab_width = 4
+
+# New line preferences
+end_of_line = crlf
+insert_final_newline = true
